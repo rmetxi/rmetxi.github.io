@@ -6,11 +6,11 @@
 }
 .Rainbow{
 
-    background-image:url('minirainbow.png');
+    background-image:url('src/minirainbow.png');
     background-repeat:no-repeat;
 }
 .colorbox{
-    background-image:url('toprainbow.png');
+    background-image:url('src/toprainbow.png');
     background-repeat:no-repeat;
 }
 .bordernone {
@@ -48,7 +48,7 @@ ul.barlist {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image:url('toprainbow.png');
+    background-image:url('src/toprainbow.png');
     position: fixed;
     top: 0;
     width: 100%;
