@@ -1,0 +1,90 @@
+.Consolas{
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.Center{
+    text-align:center;
+}
+.Rainbow{
+
+    background-image:url('minirainbow.png');
+    background-repeat:no-repeat;
+}
+.colorbox{
+    background-image:url('toprainbow.png');
+    background-repeat:no-repeat;
+}
+.bordernone {
+	border-style:none;
+}
+.borderdotted {
+	border-style:dotted;
+}
+.borderdashed {
+	border-style:dashed;
+}
+.bordersolid {
+	border-style:solid;
+}
+.borderdouble {
+	border-style:double;
+}
+.bordergroove {
+	border-style:groove;
+}
+.borderridge {
+	border-style:ridge;
+}
+.borderinset {
+	border-style:inset;
+}
+.borderoutset {
+	border-style:outset;
+}
+.borderhidden {
+	border-style:hidden;
+}
+ul.barlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:url('toprainbow.png');
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul li.bar {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul li a.active {
+    background-color: #8059FF;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
