@@ -52,7 +52,7 @@ ul.barlist {
     position: fixed;
     top: 0;
 	left: 0;
-	height: 30px;
+	height: 49px;
     width: 100%;
 }
 
@@ -97,6 +97,7 @@ ul li a.active {
 	margin:0;
 	padding:0;
 }
+
 
 
 
