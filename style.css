@@ -90,11 +90,12 @@ ul li a.active {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.main{
+.main___{
 	position: relative;
 	top: 30px;
 	left: 0;
 	margin:0;
 	padding:0;
 }
+
 
